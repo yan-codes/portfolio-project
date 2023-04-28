@@ -1,12 +1,48 @@
-body {
-  background: rgb(244, 233, 201);
+:root {
+  --branding-color: #deb1aa;
+  --secondary-color: #f9ffff;
+  --tertiary-color: #a8a1b5;
+
+  --heading-font-family: "Libre Baskerville", serif;
+  --default-font-family: "Josefin Sans", sans-serif;
 }
 
 h1 {
-  color: rgb(198, 194, 2);
-  font-family: "Josefin Sans", sans-serif;
+  color: var(--branding-color);
+  font-family: "Libre Baskerville", serif;
+  font-size: 85px;
 }
 
-p {
+.hero {
+  background: #f9f0ed;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  color: #c3b48b;
   font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 2;
+}
+
+.hero p {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--tertiary-color);
+  font-size: 36px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.btn-branding:hover {
+  background: var(--secondary-color);
+  color: var(--branding-color);
+  border: solid #c3b48b;
 }
