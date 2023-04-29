@@ -50,8 +50,8 @@ h2,
   border: solid var(--golden-color);
 }
 
-.container {
-  padding: 160px 0;
+.welcome-container {
+  padding: 160px 50px;
 }
 
 .welcome {
@@ -60,12 +60,17 @@ h2,
   text-align: justify;
 }
 
+.skills-learned {
+  background: var(--back-primary-color);
+  padding: 160px 50px;
+}
+
 .skills {
   font-family: var(--default-font-family);
   color: var(--tertiary-color);
 }
 
-.footer {
+.footer-bottom {
   background: var(--branding-color);
   color: var(--secondary-color);
   font-family: var(--default-font-family);
@@ -74,18 +79,18 @@ h2,
   margin: 0;
 }
 
-.footer a {
+.footer-bottom a {
   text-decoration: none;
   color: var(--secondary-color);
   font-family: var(--default-font-family);
 }
 
-.footer a:hover {
+.footer-bottom a:hover {
   color: var(--golden-color);
   text-decoration: underline;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
     text-align: center;
@@ -95,7 +100,35 @@ h2,
     font-size: 50px;
   }
 
-  h2 {
-    font-size: 44px;
+  h2,
+  .hero p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .btn-branding {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
+
+  .welcome-container {
+    padding: 60px 20px;
+  }
+
+  .welcome {
+    font-size: 12px;
+  }
+
+  .footer-bottom {
+    font-size: 10px;
   }
 }
