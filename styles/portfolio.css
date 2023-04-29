@@ -58,6 +58,7 @@ h2,
   font-family: var(--heading-font-family);
   color: var(--tertiary-color);
   text-align: justify;
+  line-height: 2;
 }
 
 .skills-learned {
