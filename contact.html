@@ -31,12 +31,56 @@
     ></script>
   </head>
   <body>
+    <img src="/images/background.png" alt="" class="img-fluid opacity-50" />
     <div class="content-container container">
       <div class="content">
         <h1>Let's get in touch!</h1>
-        <h3>Email</h3>
-        <p>dlpcardenas@gmail.com</p>
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Name"
+                />
+              </div>
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="email@example.com"
+              />
+            </div>
+            <div class="col-md-6">
+              <label
+                for="exampleFormControlTextarea1"
+                class="form-label"
+              ></label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-branding mt-3">
+                Submit your details
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
+    <hr />
+    <div></div>
   </body>
 </html>

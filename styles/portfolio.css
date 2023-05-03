@@ -37,7 +37,6 @@ h2,
 
 .content-container {
   padding: 160px 20px;
-  background: var(--secondary-color);
 }
 
 .content {
@@ -103,6 +102,14 @@ h2,
   color: var(--tertiary-color);
 }
 
+.form-label,
+.form-control {
+  font-family: var(--heading-font-family);
+  font-style: italic;
+  color: var(--tertiary-color);
+  font-size: 15px;
+}
+
 .footer-bottom {
   background: var(--branding-color);
   color: var(--secondary-color);
@@ -149,9 +156,9 @@ h2,
   }
 
   .btn-branding {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
-    padding: 10px 25px;
+    padding: 12px 27px;
     border-radius: 10px;
   }
 
