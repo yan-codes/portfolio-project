@@ -110,8 +110,13 @@ h2,
   font-size: 15px;
 }
 
-.social-links {
-  padding: 160px 30px 20px;
+footer {
+  margin: 60px 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--golden-color);
 }
 
 .footer-bottom {
