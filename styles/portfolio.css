@@ -102,6 +102,11 @@ h2,
   color: var(--tertiary-color);
 }
 
+.cert-container {
+  padding: 160px 50px;
+  background: var(--back-primary-color);
+}
+
 .form-label,
 .form-control {
   font-family: var(--heading-font-family);
