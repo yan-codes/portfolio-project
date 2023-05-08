@@ -30,9 +30,9 @@ h2,
 }
 
 .hero p {
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   color: var(--tertiary-color);
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .content-container {
@@ -116,12 +116,25 @@ h2,
 }
 
 footer {
-  margin: 60px 0;
+  margin-top: 60px;
 }
 
 footer .social-links a {
   margin: 0 20px;
   color: var(--golden-color);
+
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+footer h3 {
+  color: var(--branding-color);
+  letter-spacing: 4px;
+}
+
+footer .social-links a:hover {
+  background: var(--back-primary-color);
 }
 
 .footer-bottom {
@@ -191,5 +204,6 @@ footer .social-links a {
 
   .footer-bottom {
     font-size: 10px;
+    letter-spacing: 5px;
   }
 }
