@@ -31,7 +31,7 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img src="/images/logo.png" alt="" class="logo" />
@@ -53,7 +53,7 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">HOME</a>
+              <a class="nav-link active" aria-current="page" href="/">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">ABOUT</a>
@@ -62,16 +62,16 @@
               <a class="nav-link" href="/work.html">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/contact.html">CONTACT</a>
+              <a class="nav-link" href="/contact.html">CONTACT</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <img src="/images/background.png" alt="" class="img-fluid opacity-50" />
     <div class="content-container container">
       <div class="content">
-        <h1>Let's get in touch!</h1>
+        <p class="text-center">I'd love to know how I can be of help.</p>
+        <h1 class="mb-3 text-center">Get in touch!</h1>
         <form>
           <div class="row">
             <div class="col-md-6">
@@ -109,15 +109,38 @@
               ></textarea>
             </div>
             <div class="col-auto">
-              <button type="submit" class="btn btn-branding mt-3">
-                Submit your details
-              </button>
+              <button type="submit" class="btn btn-branding mt-3">Send</button>
             </div>
           </div>
         </form>
       </div>
     </div>
-    <hr />
-    <div></div>
+    <footer>
+      <div class="connect">
+        <div class="d-flex justify-content-center">
+          <h3 class="mb-4">let's connect!</h3>
+        </div>
+        <div class="social-links d-flex justify-content-center pt-2">
+          <a href="mailto:dlpcardenas@gmail.om" target="blank"
+            ><i class="fa-solid fa-envelope fa-2x"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/dlpcardenas" target="blank"
+            ><i class="fa-brands fa-linkedin fa-2x"></i
+          ></a>
+
+          <a href="https://github.com/yan-codes" target="blank"
+            ><i class="fa-brands fa-square-github fa-2x"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer-bottom pt-2 pb-2">
+        THIS SITE IS CODED BY
+        <a href="mailto: dlpcardenas@gmail.com">DIANNE LOUISE</a> AND IS
+        <a href="https://github.com/yan-codes/portfolio-project"
+          >OPEN-SOURCED ON GITHUB.</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
