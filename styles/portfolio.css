@@ -107,7 +107,12 @@ h3 {
   background: var(--back-primary-color);
   color: var(--golden-color);
   border: solid var(--golden-color);
-  font-style: bold;
+}
+
+.btn:active {
+  background: var(--back-primary-color) !important;
+  color: var(--golden-color) !important;
+  border: solid var(--golden-color) !important;
 }
 
 .welcome {
@@ -173,6 +178,11 @@ footer h3 {
   background-image: url(/images/background.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.success {
+  color: var(--golden-color);
+  text-decoration: none;
 }
 
 footer .social-links a {
